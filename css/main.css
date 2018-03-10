@@ -1,11 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&subset=cyrillic');
+
 *{
   padding:0;
   margin:0;
 }
-
-
-
 ul, li{
   list-style-type:none;
 }
+a{
+  text-decoration:none;
+}
+h1{
+  font-family:'Roboto', sans-serif;
+}
+p, li{
+  font-family:'Roboto', sans-serif ;
+}
+h2{
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+}
+/*.button-red{
+  padding: 18px 40px;
+  color: white;
+  width:160px;
+  height:50px;
+  background-color:#FE505D;
+  font-family:'Roboto' sans-serif;
+  border-radius: 3px;
+  text-transform:uppercase;
+}
+.button-green{
+  padding: 18px 40px;
+  color: white;
+  width:160px;
+  height:50px;
+  background-color:#00CB79;
+  font-family:'Roboto' sans-serif;
+  border-radius: 3px;
+  text-transform:uppercase;
+}
+.button-yellow{
+  padding: 18px 40px;
+  color: white;
+  width:160px;
+  height:50px;
+  background-color:#EFC75A;
+  font-family:'Roboto' sans-serif;
+  border-radius: 3px;
+  text-transform:uppercase;
+}
 
+.button-more-info{
+  padding: 18px 53px;
+  background-color:#FE505D;
+  color: white;
+  width: 240px;
+  height:50px;
+  text-transform:uppercase;
+  border-radius: 3px;
+  font-family:'Roboto' sans-serif;
+}
+
+.button-send-me{
+  padding: 18px 53px;
+  background-color:#FE505D;
+  color: white;
+  width: 240px;
+  height:50px;
+  text-transform:uppercase;
+  border-radius: 3px;
+  font-family:'Roboto' sans-serif;
+}
+*/
