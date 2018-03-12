@@ -13,9 +13,10 @@ a{
                 /*Шрифты*/
 body{
   margin: 0;
-  padding:0;
-  font-family:'Roboto',Arial, sans-serif;
+  padding: 0;
+  font-family: 'Roboto',Arial, sans-serif;
   font-size: 16px;
+  line-height: 24px;
 }
 h1{
   font-size: 55px;
@@ -24,19 +25,24 @@ h1{
 .represent>h1{
   font-size:45px;
 }
-
-}
 h2{
   font-size: 24px;
   text-transform: uppercase;
 }
-.surrender{
-  font-size:18px;
+.adress{
+  font-size: 16px;
+  line-height: 18px;
+}
+.sale-10{
+  line-height: 22px;
 }
 
-
+.surrender{
+  font-size: 18px;
+  line-height: 18px;
+}
 /*Main-header*/
 .main-header{
-  background-color:#ECECEC;
+  background-color: #ECECEC;
 }
 
