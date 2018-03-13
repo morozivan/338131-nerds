@@ -32,22 +32,23 @@
 </header>
 <section class="selection"></section>
   <div class="price">
-    <form class="selection-price" action=""><input class="range" type="range" step="10" min="0" max="25000"
-      value="15000">
-  <p class="price-text">Стоимость</p>
-  <div class="price-fiter"><p></p></div>
-  <div class="price-from"><p>от</p></div>
-  <div class="price-before"><p>до</p></div>
+    <p class="price-text">Стоимость</p>
+    <form class="selection-price" action=""><div class="range"> </div>
+    <label for="of">от</label><input class="priсe-off" type="text" name="price" placeholder="0">
+    <label for="to">до</label><input class="priсe-to" type="text" name="price" placeholder="15000">
   </div>
 <div class="check">
 <div class="radio">
-   <input type="radio" name="adaptive" value="adaptive" checked>Адаптивная
-   <input type="radio" name="fixed" value="fixed">Фиксированая
-   <input type="radio" name="rubber" value="rubber">Резиновая
+  <p class="grid">сетка</p>
+   <input type="radio" name="adaptive" value="adaptive" checked><label for="Адаптивная">Адаптивная</label>
+   <input type="radio" name="fixed" value="fixed"><label for="Фиксированая">Фиксированая</label>
+   <input type="radio" name="rubber" value="rubber"><label for="Резиновая">Резиновая</label>
 </div>
 <div class="check-box">
-  <input type="checkbox" name="sliders" value="sliders" checked>Слайдер
-  <input type="checkbox" name="block-advantages" value="block-advantages"><label for="Блок приемуществ"></label>
+  <p class="features">особенности</p>
+  <input type="checkbox" name="sliders" value="sliders" checked><label for="слайдер">слайдер</label>
+  <input type="checkbox" name="block-advantages" value="block-advantages">
+  <label for="Блок приемуществ">Блок приемуществ</label>
   <input type="checkbox" name="news" value="news" checked><label for="Новости">Новости</label>
   <input type="checkbox" name="gallery" value="gallery"><label for="Галерея">Галерея</label>
   <input type="checkbox" name="basket" value="basket"><label for="Корзина">Корзина</label>
@@ -64,40 +65,41 @@
      <a href="#"><li>по названию</li></a>
     </ul>
     <ul class="up-down">
-  <li class="down"></li>
-  <li class="up"></li>
+  <li class="down"><img src="img/icon-down-dir.png" alt="вниз"></li>
+  <li class="up"><img src="img/icon-up-dir.png" alt="вверх"></li>
   </ul>
 <article class="presentation">
   <span class="value"></span>
   <div class="sedona-full">
-  <img class="sedona" src="img/img-sedona.jpg" width="366px" height="528" alt="фото-Седона">
-  <div class="sedona-window"><a href="#">sedona</a><p>Информационный сайт для туристов</p><a class="button-price" href="#">9900 руб.</a></div></div>
+  <img class="sedona" src="img/img-sedona.jpg" width="360px" height="615" alt="фото-Седона">
+  <div class="sedona-window gray"><a href="#">sedona</a><p class="info-fonts">Информационный сайт для туристов</p>
+    <a class="button-price" href="#">9900 руб.</a></div></div>
   <div class="pink-full">
-  <img class="pink" src="img/img-pink.jpg" width="366px" height="528" alt="фото-Пинк">
- <div class="pink-window"><a href="#">pink-app</a><p>Продуктовый лендинг для приложений для IOS и Android</p><a class="button-price" href="#">9900 руб.</a></div></div>
+  <img class="pink" src="img/img-pink.jpg" width="360px" height="615" alt="фото-Пинк">
+ <div class="pink-window gray"><a href="#">pink-app</a><p class="info-fonts>Продуктовый лендинг для приложений для IOS и Android</p><a class="button-price" href="#">9900 руб.</a></div></div>
   <div class="barbershop-full">
-  <img class="barbershop" src="img/img-barbershop.jpg" width="366px" height="528" alt="фото Бородинский">
- <div class="barbershop-window"><a href="#">barbershop</a><p>Сайт салона красоты.Для мужчина,да</p>
+  <img class="barbershop" src="img/img-barbershop.jpg" width="366px" height="615" alt="фото Бородинский">
+ <div class="barbershop-window gray"><a href="#">barbershop</a><p class="info-fonts>Сайт салона красоты.Для мужчина,да</p>
   <a class="button-price" href="#">9900 руб.</a></div></div>
  <div class="miska-full">
-  <img class="miska" src="img/img-mishka.jpg" width="366px" height="528" alt="фото-Мишка">
- <div class="miska-window"><a href="#">miska</a><p>Интернет магазин вязаных игрушек</p><a class="button-price"
+  <img class="miska" src="img/img-mishka.jpg" width="360px" height="615" alt="фото-Мишка">
+ <div class="miska-window gray"><a href="#">miska</a><p class="info-fonts>Интернет магазин вязаных игрушек</p><a class="button-price"
   href="#">9900 руб.</a></div></div>
  <div class="apul-full">
-  <img class="aplus" src="img/img-aplus.jpg" width="366px" height="528" alt="фото-Апплюс">
- <div class="aplus-window"><a href="#">apuls</a><p>Лендинг курсов повышения квалификации</p>
+  <img class="aplus" src="img/img-aplus.jpg" width="360px" height="615" alt="фото-Апплюс">
+ <div class="aplus-window gray"><a href="#">a plus</a><p class="info-fonts>Лендинг курсов повышения квалификации</p>
   <a class="button-price"
   href="#">9900 руб.</a></div></div>
  <div class="kvast-full">
-  <img class="kvast" src="img/img-kvast.jpg" width="366px" height="528" alt="фото Кваст">
-   <div class="kvast-window"><a href="#">kvast</a><p>Промо-сайт производителя крафтового кваса</p>
+  <img class="kvast" src="img/img-kvast.jpg" width="360px" height="615" alt="фото Кваст">
+   <div class="kvast-window gray"><a href="#">кваст</a><p class="info-fonts>Промо-сайт производителя крафтового кваса</p>
     <a class="button-price"
     href="#">9900 руб.</a></div></div>
 <div class="selection-number"><a class="square" href="#">1</a><a class="square" href="#">2</a>
 <a class="square" href="#">3</a><a class="square-next" href="#">следущая</a></div>
 </article>
 <div class="bloc-map">
-  <b class="nerds-disign-studia">nerds disign studia </b>
+  <b class="nerds-disign-studia">NЁRDS DESIGN STUDIO</b>
   <p class="adress"> 191186, Санкт-Петербург</p>
   <p class="adress">ул.Б.Конюшеннаяб д.19/8</p>
   <p class="adress">тел. +7(812)275-75-75</p>

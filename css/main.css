@@ -1,14 +1,11 @@
 /*@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&subset=cyrillic')*/
-*{
-  padding:0;
-  margin:0;
-}
+
 ul li{
   list-style-type:none;
 }
 a{
   text-decoration:none;
-  /*color:#fefefe;*/
+  color: black;
 }
                 /*Шрифты*/
 body{
@@ -36,13 +33,79 @@ h2{
 .sale-10{
   line-height: 22px;
 }
-
 .surrender{
   font-size: 18px;
   line-height: 18px;
 }
-/*Main-header*/
-.main-header{
+.price-text,
+.grid,
+.features>p{
+  line-height: 20px;
+}
+.price-text,
+.grid,
+.features {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+label{
+    line-height: 20px;
+}
+.sorting li{
+  font-size: 14px;
+}
+.sorting:first-child{
+  font-size: 18px;
+}
+.sedona-window>a:first-child{
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.pink-window>a:first-child{
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.barbershop-window>a:first-child{
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.miska-window>a:first-child{
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.aplus-window>a:first-child{
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.kvast-window>a:first-child{
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.main-header,
+.header-shop,
+.gray{
   background-color: #ECECEC;
 }
-
+.gray{
+  width:360px;
+  height: 80px;
+}
+input.priсe-off{
+  width: 80px;
+}
+input.priсe-to{
+  width: 80px;
+}
+.selection{
+  line-height: 20px;
+}
+.info-fonts{
+  font-size: 16px;
+  line-height: 18px;
+}
