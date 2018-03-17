@@ -1,5 +1,7 @@
-/*@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&subset=cyrillic')*/
 
+.wrapper{
+  margin: auto;
+}
 ul li{
   list-style-type:none;
 }
@@ -16,8 +18,7 @@ body{
   line-height: 24px;
 }
 h1{
-  font-size: 55px;
-  font-weight: bold;
+  font-size: 45px;
 }
 .represent>h1{
   font-size:45px;
@@ -112,6 +113,10 @@ input.priсe-to{
 .friend{
   font-size: 36px;
 }
+.site-navigation>li a,
+.basket{
+  text-transform: uppercase;
+}
 /*.button{
   color: white;
 }
@@ -119,3 +124,125 @@ input.priсe-to{
   color:white;
 }
 */
+
+/*Flex header begin*/
+
+.main-navagation{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.site-navigation{
+  display: flex;
+  justify-content: center;
+}
+
+.basket{
+  display: flex;
+  justify-content: flex-end;
+}
+.studio{
+  margin-left:200px;
+}
+.main-header-logo{
+  margin-left: 50px;
+}
+.clients{
+  margin-right:45px;
+  margin-left:45px;
+}
+.shop{
+  margin-right:45px;
+}
+.basket{
+  background:url(../img/cart-icon.png) no-repeat 10% 15%;
+  margin-left:245px;
+}
+/*Flex header end*/
+/*Flex slider begin*/
+.math{
+  display: flex;
+  flex-direction:column;
+  max-width:380px;
+  margin-left:50px;
+}
+.math h1{
+  line-height: 50px;
+}
+.sliders{
+  display: flex;
+  min-width:730px;
+  margin-left:50px;
+/*  background:url(../img/slide1.png) no-repeat;*/
+}
+.bottom-header{
+  display: flex;
+  min-height: 415px;
+}
+.sliders-button{
+  display: flex;
+}
+/*Flex slider end*/
+/*Flex main-index begin*/
+
+.offers{
+  display: flex;
+  margin-left:50px;
+}
+.web-site,
+.soft,
+.presentation{
+  max-width: 300px;
+}
+.soft{
+  margin-right:100px;
+  margin-left: 100px;
+}
+
+.represent{
+  display: flex;
+  margin-left:50px;
+}
+.represent-begin{
+  display: flex;
+  flex-direction:column;
+  max-width: 660px;
+}
+.development{
+  display: flex;
+  flex-direction: column;
+}
+.represent-begin>h1
+{
+  line-height:45px;
+}
+.working{
+  font-size: 18px;
+}
+.offer{
+  margin-bottom: 30px;
+}
+.offers{
+  margin-top:75px;
+}
+.represent-end{
+  margin-left:150px;
+}
+
+.illustration-color{
+  margin-bottom:55px;
+}
+.year{
+  display: flex;
+}
+.enumeration{
+  display: flex;
+}
+
+
+.project{
+  display: flex;
+  justify-content: flex-start;
+}
+
+/*Flex main-index end*/

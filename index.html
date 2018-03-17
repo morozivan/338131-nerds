@@ -8,6 +8,7 @@
   <link  rel="stylesheet" href="css/main.css">
 </head>
 <body>
+  <div class="wrapper">
 <header class="main-header">
   <nav class="main-navagation">
     <a class="main-header-logo" href="#">
@@ -23,13 +24,24 @@
     <li><a href="#">Корзина</a></li>
   </ul>
   </nav>
+  <div class="bottom-header">
 <section class="math">
   <h1>Долго, дорого, скрупулезно.</h1>
-    <p>Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
+    <p>Математически выверенный дизайн <br> для вашего сайта или мобильного приложения.</p>
     <a class="button-more-info" href="#">узнать больше</a>
   </section>
-  <div class="sliders">######</div>
+  <ul class="sliders">
+    <li slider-item>content</li>
+    <li slider-item>content</li>
+    <li slider-item>content</li>
+  </ul>
+  <div class="sliders-buttons">
+    <button class="sliders-button"></button>
+    <button class="sliders-button"></button>
+    <button class="sliders-button"></button>
+  </div>
 </header>
+</div>
 <main class="main-index">
   <section class="offers">
     <div class="web-site">
@@ -52,16 +64,22 @@
   </div>
   </section>
   <section class="represent">
+    <div class="represent-begin">
   <h1>Мы — маленькая, но гордая дизайн-студия из Краснодара. </h1>
   <p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая рук, как роботы.</p>
+  <h2 class="working">Выполняем заказы на разработку</h2>
   <ul class="development">
     <li class="offer">Веб-сайтов любой сложности</li>
     <li class="offer">Мобильных приложений для iOS и Android</li>
     <li class="offer">Слайдшоу и видео для корпоративных презентаций</li>
   </ul>
+  </div>
   <div class="surrender">
-  <a href="#"><img src="img/nerds-illustration.jpg" alt="color-logo"></a>
-  <ul>
+    <div class="represent-end">
+  <a  href="#"><img class="illustration-color" src="img/nerds-illustration.jpg" width="360"
+   height="208" alt="color-logo"></a>
+  <b class="year">с 2004 года Любим точность во всем:</b>
+  <ul class="enumeration">
     <li>146<sup>%</sup></li>
     <li>Уровень самоотдачи</li>
     <li>100<sup>%</sup></li>
@@ -69,6 +87,7 @@
     <li>50<sup>%</sup></li>
     <li>Минимальная предоплата</li>
   </ul>
+    </div>
   <div class="project">
     <ul>
       <li class="html-academy"><a href="#"><img src="img/logo-1.png" alt="logo-html-academy">
@@ -107,5 +126,6 @@
   <p class="sale-10">Скидка 10% для друзей из социальных сетей.</p>
 </section>
 </footer>
-  </body>
+</body>
+</div>
 </html>
