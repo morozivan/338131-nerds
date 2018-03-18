@@ -1,6 +1,9 @@
 
-.wrapper{
+.wrapper,
+.bloc-map,
+.main-footer{
   margin: auto;
+  width: 1440px;
 }
 ul li{
   list-style-type:none;
@@ -116,6 +119,7 @@ input.priсe-to{
 .site-navigation>li a,
 .basket{
   text-transform: uppercase;
+   font-weight:bold;
 }
 /*.button{
   color: white;
@@ -123,40 +127,49 @@ input.priсe-to{
 .button-price{
   color:white;
 }
-*/
+
 
 /*Flex header begin*/
-
-.main-navagation{
+.main-navigation{
   display: flex;
   justify-content: flex-start;
 }
-
 .site-navigation{
   display: flex;
   justify-content: center;
 }
-
-.basket{
-  display: flex;
-  justify-content: flex-end;
-}
 .studio{
-  margin-left:200px;
+  margin-left:165px;
+  width: 65px;
+  height: 25px;
 }
 .main-header-logo{
-  margin-left: 50px;
+  margin-left: 140px;
 }
 .clients{
   margin-right:45px;
   margin-left:45px;
+  width: 65px;
+  height: 25px;
+}
+.contact{
+  width: 65px;
+  height: 25px;
 }
 .shop{
   margin-right:45px;
+  width: 65px;
+  height: 25px;
 }
 .basket{
-  background:url(../img/cart-icon.png) no-repeat 10% 15%;
-  margin-left:245px;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+  margin-right: 129px;
+  width: 100px;
+  height: 31px;
+  background:url(../img/cart-icon.png) no-repeat 3% 22%;
+  margin-left:auto;
 }
 /*Flex header end*/
 /*Flex slider begin*/
@@ -164,7 +177,7 @@ input.priсe-to{
   display: flex;
   flex-direction:column;
   max-width:380px;
-  margin-left:50px;
+  margin-left:140px;
 }
 .math h1{
   line-height: 50px;
@@ -187,7 +200,9 @@ input.priсe-to{
 
 .offers{
   display: flex;
-  margin-left:50px;
+  margin-left:140px;
+  margin-bottom: 30px;
+  margin-top:75px;
 }
 .web-site,
 .soft,
@@ -198,10 +213,15 @@ input.priсe-to{
   margin-right:100px;
   margin-left: 100px;
 }
-
+.surrender{
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  min-width: 521px;
+}
 .represent{
   display: flex;
-  margin-left:50px;
+  margin-left:140px;
 }
 .represent-begin{
   display: flex;
@@ -219,30 +239,188 @@ input.priсe-to{
 .working{
   font-size: 18px;
 }
-.offer{
-  margin-bottom: 30px;
-}
-.offers{
-  margin-top:75px;
-}
 .represent-end{
-  margin-left:150px;
+  margin-left:75px;
 }
 
 .illustration-color{
-  margin-bottom:55px;
+  margin-left: 85px;
 }
 .year{
   display: flex;
+  margin-top: 35px;
+  margin-right: 50px;
+  margin-left: 25px;
+
 }
 .enumeration{
   display: flex;
+  margin-left: -28px;
+  margin-top: -23px;
+}
+.rate{
+  display: flex;
+  justify-content:space-around;
+  margin-right:110px;
+  font-size: 45px;
+  font-weight:bold ;
 }
 
-
-.project{
+.rate>li{
+  margin-right:50px;
+  margin-bottom:25px;
+}
+.projects{
   display: flex;
+  margin-top: 50px;
+  margin-bottom: 50px;
   justify-content: flex-start;
+  padding-top: 46px;
+  padding-bottom: 46px;
+  border-top:2px solid #F1F1F1;
+  border-bottom:2px solid #F1F1F1;
+}
+
+.html-academy{
+  margin-left:50px;
+  margin-right:90px;
+}
+.borodinski{
+  margin-right:105px;
+}
+.pink-full{
+  margin-right:120px;
+  margin-left: 50px;
+}
+.miska-full{
+  margin-left: 50px;
+}
+.kvast-full{
+  margin-left: 50px;
+}
+.projects-list{
+  display: flex;
 }
 
 /*Flex main-index end*/
+/*Flex footer begin*/
+.main-footer{
+  display: flex;
+  height: 220px;
+  margin-top: 70px;
+}
+.social-logo{
+  margin-left: 50px;
+  margin-right: 140px;
+}
+.vk,
+.facebook,
+.instagramm{
+  border:none;
+  height: 20px;
+  width: 20px;
+  background: #DFDFDF;
+  border-radius: 30px;
+  text-align:center;
+  padding:28px 27px;
+  border-radius: 50px;
+}
+.facebook{
+  padding:28px 33px;
+}
+.shop-model{
+  margin-left: 380px;
+  font-size: 55px;
+  margin-top: 70px;
+}
+.main-navigation{
+  padding-top: 45px;
+}
+/*Flex footer end*/
+/*shop begin*/
+.navigation-shop{
+  height: 355px;
+}
+.wrapper-shop{
+  display:flex;
+  outline: 1px solid red;
+}
+.selection{
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin-left: 140px;
+  outline: 1px solid black;
+}
+.price{
+  display:flex;
+  flex-direction: column;
+}
+.radio{
+  display: flex;
+  flex-direction: column;
+}
+.check-box{
+  display: flex;
+  flex-direction: column;
+}
+.selection-product{
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  outline: 1px solid green;
+  margin-left: 140px;
+}
+.sorting>li{
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-right: 310px;
+}
+.sorting{
+  display: flex;
+  max-width: 700px;
+  padding: 0;
+}
+.sorting-full{
+  display: flex;
+}
+.up-down{
+  display: block;
+  width: 50px;
+}
+.down{
+  background: url(../img/icon-down-dir.png) no-repeat 50% 50%;
+}
+.up{
+  background: url(../img/icon-up-dir.png) no-repeat 50% 50%;
+}
+.type{
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.sedona-pink{
+  display: flex;
+}
+.barbershop-miska{
+  display: flex;
+  margin-top:33px;
+  margin-bottom:33px;
+}
+.apul-kvast{
+  display: flex;
+}
+
+.page-selection{
+  display: flex;
+  margin-top: 20px;
+}
+
+
+.priсe-off{
+  list-style-type:none;
+}
+
+
+/*shop end*/
+

@@ -8,34 +8,32 @@
   <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-  <div class="shop-wrapper"></div>
-<header class="header-shop">
-<nav class="shop-navagation">
-    <a class="main-header-logo" href="index.html">
-      <img src="img/nerds-logo.svg" width="160" height="70" alt="логотип">
-    </a>
-  <div class="main-nav-wrapper">
-    <div class="container">
-      <ul class="site-navigation">
-         <li class="studio"><a href="#">Студия</a></li>
+<div class="wrapper">
+<header class="main-header">
+<div class="navigation-shop">
+<nav class="main-navigation">
+    <a class="main-header-logo" href="#">
+      <img src="img/nerds-logo.svg" width="160" height="70" alt="нёрдс"></a>
+     <ul class="site-navigation">
+         <li class="studio"><a href="index.html">Студия</a></li>
          <li class="clients"><a href="#">Клиенты</a></li>
          <li class="shop"><a href="shop.html">Магазин</a></li>
          <li class="contact"><a href="#">Контакты</a></li>
        </ul>
-  <ul list-style-type="none" class="basket">
-    <li><a href="#">Корзина</a></li>
-  </ul>
-    </div>
-    <h1 class="name">Магазин готовых шаблонов</h1>
+  <div class="basket">
+    <a href="#">Корзина</a>
   </div>
   </nav>
+    <h1 class="shop-model">Магазин готовых шаблонов</h1>
+</div>
 </header>
-<section class="selection"></section>
+<div class="wrapper-shop">
+<section class="selection">
   <div class="price">
     <p class="price-text">Стоимость</p>
-    <form class="selection-price" action=""><div class="range"> </div>
-    <label for="of">от</label><input class="priсe-off" type="text" name="price" placeholder="0">
-    <label for="to">до</label><input class="priсe-to" type="text" name="price" placeholder="15000">
+    <form class="selection-price" action=""><div class="range">##### </div>
+    <label for="of">от</label><input class="priсe-off" type="text" name="price" placeholder="0" list-style-type:none;>
+    <label for="to">до</label><input class="priсe-to" type="text" name="price" placeholder="15000" list-style-type:none;>
   </div>
 <div class="check">
 <div class="radio">
@@ -58,32 +56,37 @@
 </form>
 </section>
 <section class="selection-product">
+  <div class="sorting-full">
   <ul class="sorting">
-    <b>Сортировать</b>
+    <li>сортировать</li>
      <a href="#"><li>по цене</li></a>
-     <a href="#"><li>по типу</li></a>
+     <a href="#"><li class="type">по типу</li></a>
      <a href="#"><li>по названию</li></a>
-    </ul>
-    <ul class="up-down">
+  </ul>
+  <ul class="up-down">
   <li class="down"></li>
   <li class="up"></li>
   </ul>
+  </div>
 <article class="presentation">
   <span class="value"></span>
+  <div class="sedona-pink">
   <div class="sedona-full">
   <img class="sedona" src="img/img-sedona.jpg" width="360px" height="615" alt="фото-Седона">
   <div class="sedona-window gray"><a href="#">sedona</a><p class="info-fonts">Информационный сайт для туристов</p>
     <a class="button-price" href="#">9900 руб.</a></div></div>
   <div class="pink-full">
   <img class="pink" src="img/img-pink.jpg" width="360px" height="615" alt="фото-Пинк">
- <div class="pink-window gray"><a href="#">pink-app</a><p class="info-fonts">Продуктовый лендинг для приложений для IOS и Android</p><a class="button-price" href="#">9900 руб.</a></div></div>
+ <div class="pink-window gray"><a href="#">pink-app</a><p class="info-fonts">Продуктовый лендинг для приложений для IOS и Android</p><a class="button-price" href="#">9900 руб.</a></div></div></div>
+  <div class="barbershop-miska">
   <div class="barbershop-full">
   <img class="barbershop" src="img/img-barbershop.jpg" width="366px" height="615" alt="фото Бородинский">
  <div class="barbershop-window gray"><a href="#">barbershop</a><p class="info-fonts">Сайт салона красоты.Для мужчина,да</p><a class="button-price" href="#">9900 руб.</a></div></div>
  <div class="miska-full">
   <img class="miska" src="img/img-mishka.jpg" width="360px" height="615" alt="фото-Мишка">
  <div class="miska-window gray"><a href="#">miska</a><p class="info-fonts">Интернет магазин вязаных игрушек</p><a class="button-price"
-  href="#">9900 руб.</a></div></div>
+  href="#">9900 руб.</a></div></div></div>
+  <div class="apul-kvast">
  <div class="apul-full">
   <img class="aplus" src="img/img-aplus.jpg" width="360px" height="615" alt="фото-Апплюс">
  <div class="aplus-window gray"><a href="#">a plus</a><p class="info-fonts">Лендинг курсов повышения квалификации</p>
@@ -91,12 +94,14 @@
   href="#">9900 руб.</a></div></div>
  <div class="kvast-full">
   <img class="kvast" src="img/img-kvast.jpg" width="360px" height="615" alt="фото Кваст">
-   <div class="kvast-window gray"><a href="#">кваст</a><p class="info-fonts>Промо-сайт производителя крафтового кваса</p>
+   <div class="kvast-window gray"><a href="#">кваст</a><p class="info-fonts">Промо-сайт производителя крафтового кваса</p>
     <a class="button-price"
-    href="#">9900 руб.</a></div></div>
-<div class="selection-number"><a class="square" href="#">1</a><a class="square" href="#">2</a>
+  href="#">9900 руб.</a></div></div></div>
+<div class="page-selection"><a class="square" href="#">1</a><a class="square" href="#">2</a>
 <a class="square" href="#">3</a><a class="square-next" href="#">следущая</a></div>
 </article>
+</section>
+</div>
 <div class="bloc-map">
   <b class="nerds-disign-studia">NЁRDS DESIGN STUDIO</b>
   <p class="adress"> 191186, Санкт-Петербург</p>
@@ -113,12 +118,14 @@
  <a class="facebook" href="#"><img src="img/fb-icon.png" alt="fb-icon"></a>
  <a class="instagramm" href="#"><img src="img/insta-icon.png" alt="insta-icon"></a>
 </div>
-<section class="call">
+<div class="call">
   <b class="friend">Давайте дружить это выгодно</b>
   <p class="sale-10">Скидка 10% для друзей из социальных сетей.</p>
-</section>
+</div>
 </footer>
-</section>
+
+</div>
+</div>
 </div>
 </body>
 </html>
