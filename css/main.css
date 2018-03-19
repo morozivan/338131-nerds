@@ -412,13 +412,21 @@ a.instagramm::before{
 .shop-model{
   margin-left: 365px;
   font-size: 55px;
-  margin-top: 70px;
+  margin-top: 0;
 }
 .main-header-logo{
   margin-left: 140px;
 }
+
+.main-navigation-shop{
+  padding-top: 45px;
+  margin-left:0px;
+  padding-bottom: 35px;
+}
 .main-navigation{
   padding-top: 45px;
+  margin-left:-138px;
+  padding-bottom: 35px;
 }
 /*Flex footer end*/
 /*shop begin*/
