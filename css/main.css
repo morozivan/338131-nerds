@@ -53,7 +53,7 @@ h2{
   text-transform: uppercase;
 }
 label{
-    line-height: 20px;
+  line-height: 20px;
 }
 .sorting li{
   font-size: 14px;
@@ -98,7 +98,7 @@ label{
 }
 .gray{
   width:360px;
-  height: 80px;
+  min-height: 80px;
 }
 input.priсe-off{
   width: 80px;
@@ -141,34 +141,34 @@ input.priсe-to{
 .studio{
   margin-left:165px;
   width: 65px;
-  height: 25px;
+  min-height: 25px;
 }
-.main-header-logo{
+/*.main-header-logo{
   margin-left: 140px;
-}
+}*/
 .clients{
   margin-right:45px;
   margin-left:45px;
   width: 65px;
-  height: 25px;
+  min-height: 25px;
 }
 .contact{
   width: 65px;
-  height: 25px;
+  min-height: 25px;
 }
 .shop{
   margin-right:45px;
   width: 65px;
-  height: 25px;
+  min-height: 25px;
 }
 .basket{
   display: flex;
   justify-content: flex-end;
-  margin-top: 20px;
-  margin-right: 129px;
+  margin-top: 17px;
+  margin-right: 0px;
   width: 100px;
-  height: 31px;
-  background:url(../img/cart-icon.png) no-repeat 3% 22%;
+  min-height: 31px;
+  background:url(../img/cart-icon.png) no-repeat 3% 10%;
   margin-left:auto;
 }
 /*Flex header end*/
@@ -177,7 +177,11 @@ input.priсe-to{
   display: flex;
   flex-direction:column;
   max-width:380px;
-  margin-left:140px;
+
+}
+.main-navigation-centr{
+  width: 1160px;
+  margin: auto;
 }
 .math h1{
   line-height: 50px;
@@ -264,27 +268,25 @@ input.priсe-to{
 .enumeration{
   display: flex;
 }
-.rate{
-  display: flex;
-  font-size: 45px;
-  line-height: 4px;
-  font-weight:bold ;
+
+.rate {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -15px;
 }
-.rate-146{
-  margin-left:-30px;
+.percent {
+    font-size: 30px;
+    line-height: 10px;
+    font-weight: 700;
+    vertical-align: super;
 }
-.level{
-  margin-left:-26px;
-}
-.terms{
-  padding-right:17px;
-}
-.prepayment{
-  padding-right:93px;
-}
-.rate-100{
-  margin-right:32px;
-  margin-left:19px;
+.rate-text{
+    font-size: 45px;
+    line-height: 10px;
+    font-weight: 700;
+    padding: 0 0 38px;
+    margin: 0;
 }
 .projects{
   display: flex;
@@ -295,7 +297,6 @@ input.priсe-to{
   padding-bottom: 46px;
   border-top:2px solid #F1F1F1;
   border-bottom:2px solid #F1F1F1;
-
 }
 
 .html-academy{
@@ -330,32 +331,91 @@ input.priсe-to{
 /*Flex footer begin*/
 .main-footer{
   display: flex;
-  height: 220px;
+  min-height: 220px;
   margin-top: 70px;
 }
 .social-logo{
   margin-left: 50px;
   margin-right: 140px;
+  margin-top: 15px;
 }
-.vk,
-.facebook,
-.instagramm{
+
+a.vk::before{
+  content: url(../img/vk-icon.png);
   border:none;
-  height: 20px;
+  min-height: 20px;
   width: 20px;
   background: #DFDFDF;
   border-radius: 30px;
-  text-align:center;
-  padding:28px 27px;
+  text-align: center;
+  padding-top: 31px;
+  padding-right: 27px;
+  padding-left: 27px;
+  padding-bottom: 28px;
+  border-radius: 50px;
+}
+a.facebook::before{
+  content: url(../img/fb-icon.png);
+  padding-top: 32px;
+  padding-right: 34px;
+  padding-left: 35px;
+  padding-bottom: 28px;
+  border: none;
+  min-height: 20px;
+  width: 20px;
+  background: #DFDFDF;
+  border-radius: 42px;
+}
+a.instagramm::before{
+  content: url(../img/insta-icon.png);
+  border:none;
+  min-height: 20px;
+  width: 20px;
+  background: #DFDFDF;
+  border-radius: 30px;
+  text-align: center;
+  padding-top: 32px;
+  padding-right: 29px;
+  padding-left: 28px;
+  padding-bottom: 26px;
+  border-radius: 50px;
+}
+
+
+/*.vk,
+.facebook,
+.instagramm{
+  border:none;
+  min-height: 20px;
+  width: 20px;
+  background: #DFDFDF;
+  border-radius: 30px;
+  text-align: center;
+  padding-top: 32px;
+  padding-right: 29px;
+  padding-left: 28px;
+  padding-bottom: 26px;
   border-radius: 50px;
 }
 .facebook{
-  padding:28px 33px;
+  padding-top: 32px;
+  padding-right: 33px;
+  padding-left: 32px;
+  padding-bottom: 28px;
 }
+.vk{
+  padding-top: 31px;
+  padding-right: 27px;
+  padding-left: 27px;
+  padding-bottom: 28px;
+}*/
 .shop-model{
-  margin-left: 380px;
+  margin-left: 365px;
   font-size: 55px;
   margin-top: 70px;
+}
+.main-header-logo{
+  margin-left: 140px;
 }
 .main-navigation{
   padding-top: 45px;
@@ -461,7 +521,7 @@ li.up:before{
 /*shop end*/
 .write{
   width: 320px;
-  height: 310px;
+  min-height: 310px;
 }
 
 .circle-full{
@@ -485,7 +545,7 @@ li.up:before{
 }
 .button-more-info{
   width: 240px;
-  height: 39px;
+  min-height: 39px;
   text-align: center;
   padding-top: 12px;
 }
@@ -521,9 +581,9 @@ li.up:before{
   padding-right: 85px;
   padding-bottom: 17px;
 }
-.iframe{
+iframe{
+    width:1440px;
+    min-height:420px;
+    border:0;
     border-width: 0px;
-}
-li.circle::before {
-  content: &#9675;
 }
