@@ -201,7 +201,7 @@ input.priсe-to{
 .offers{
   display: flex;
   margin-left:140px;
-  margin-bottom: 30px;
+  margin-bottom:95px;
   margin-top:75px;
 }
 .web-site,
@@ -222,7 +222,9 @@ input.priсe-to{
 .represent{
   display: flex;
   margin-left:140px;
+  border-top: 2px solid #ECECEC;
 }
+
 .represent-begin{
   display: flex;
   flex-direction:column;
@@ -233,8 +235,8 @@ input.priсe-to{
   flex-direction: column;
   padding-left: 0;
 }
-.represent-begin>h1
-{
+.represent-begin>h1{
+  margin-top: 80px;
   line-height:45px;
 }
 .working{
@@ -246,6 +248,7 @@ input.priсe-to{
 
 .illustration-color{
   margin-left: 85px;
+  margin-top: 40px;
 }
 .year{
   display: flex;
@@ -253,24 +256,35 @@ input.priсe-to{
   margin-right: 50px;
   margin-left: 25px;
   margin-bottom: 68px;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
 
 }
 .enumeration{
   display: flex;
-  padding-left: 10px;
-  justify-content:center;
 }
 .rate{
   display: flex;
-  justify-content:center;
-  padding-right: 100px;
   font-size: 45px;
+  line-height: 4px;
   font-weight:bold ;
 }
-
-.rate>li{
-  margin-right:50px;
-  margin-bottom:25px;
+.rate-146{
+  margin-left:-30px;
+}
+.level{
+  margin-left:-26px;
+}
+.terms{
+  padding-right:17px;
+}
+.prepayment{
+  padding-right:93px;
+}
+.rate-100{
+  margin-right:32px;
+  margin-left:19px;
 }
 .projects{
   display: flex;
@@ -281,6 +295,7 @@ input.priсe-to{
   padding-bottom: 46px;
   border-top:2px solid #F1F1F1;
   border-bottom:2px solid #F1F1F1;
+
 }
 
 .html-academy{
@@ -383,12 +398,12 @@ input.priсe-to{
 .sorting>li{
   font-weight: bold;
   text-transform: uppercase;
-  margin-right: 310px;
 }
 .sorting{
   display: flex;
   max-width: 700px;
   padding: 0;
+  margin-right: 272px;
 }
 .sorting-full{
   display: flex;
@@ -459,4 +474,56 @@ li.up:before{
 .offer{
   background: url(../img/red-line.png) no-repeat 0 50%;
   padding-left: 40px
+}
+.button,
+.button-more-info,
+.button-send-me,
+.send-my{
+  color:white;
+  border-radius: 3px;
+  background-color:#FE505D;
+}
+.button-more-info{
+  width: 240px;
+  height: 39px;
+  text-align: center;
+  padding-top: 12px;
+}
+.button{
+  text-align: center;
+  padding-top: 14px;
+  padding-bottom: 17px;
+  padding-left: 47px;
+  padding-right: 47px;
+}
+.assist-button{
+  margin-bottom: 46px;
+}
+.green{
+  background-color:#00CB79;
+}
+.yellow{
+  background-color:#EFC75A;
+}
+.button-send-me{
+  padding-top: 14px;
+  padding-left: 57px;
+  padding-right: 57px;
+  padding-bottom: 17px;
+}
+.adress{
+  margin-bottom: 50px;
+}
+.send-my{
+  text-transform: uppercase;
+  padding-top: 14px;
+  padding-left: 85px;
+  padding-right: 85px;
+  padding-bottom: 17px;
+}
+.iframe{
+    border-width: 0px;
+}
+li.circle::before {
+  content: &#9675;
 }
