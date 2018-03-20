@@ -1,10 +1,4 @@
 
-.wrapper,
-.bloc-map,
-.main-footer{
-  margin: auto;
-  width: 1440px;
-}
 ul li{
   list-style-type:none;
 }
@@ -137,7 +131,9 @@ input.priсe-to{
 .site-navigation{
   display: flex;
   justify-content: center;
+  margin-top:50px;
 }
+
 .studio{
   margin-left:165px;
   width: 65px;
@@ -164,12 +160,13 @@ input.priсe-to{
 .basket{
   display: flex;
   justify-content: flex-end;
-  margin-top: 17px;
-  margin-right: 0px;
+  margin-top: 50px;
+  margin-right: 4%;
   width: 100px;
   min-height: 31px;
-  background:url(../img/cart-icon.png) no-repeat 3% 10%;
-  margin-left:auto;
+  background: url(../img/cart-icon.png) no-repeat 1% 18%;
+  margin-left: auto;
+  padding-top: 0px;
 }
 /*Flex header end*/
 /*Flex slider begin*/
@@ -204,9 +201,10 @@ input.priсe-to{
 
 .offers{
   display: flex;
-  margin-left:140px;
+  margin-left:373px;
   margin-bottom:95px;
   margin-top:75px;
+
 }
 .web-site,
 .soft,
@@ -225,7 +223,7 @@ input.priсe-to{
 }
 .represent{
   display: flex;
-  margin-left:140px;
+  margin-left:371px;
   border-top: 2px solid #ECECEC;
 }
 
@@ -324,7 +322,7 @@ input.priсe-to{
 }
 .projects-list{
   display: flex;
-  padding-left: 95px;
+  padding-left: 327px;
 }
 
 /*Flex main-index end*/
@@ -335,7 +333,7 @@ input.priсe-to{
   margin-top: 70px;
 }
 .social-logo{
-  margin-left: 50px;
+  margin-left: 295px;
   margin-right: 140px;
   margin-top: 15px;
 }
@@ -412,10 +410,11 @@ a.instagramm::before{
 .shop-model{
   margin-left: 365px;
   font-size: 55px;
-  margin-top: 0;
+  text-align: center;
+  padding-top: 22px;
 }
 .main-header-logo{
-  margin-left: 140px;
+  margin-left: 9.8%;;
 }
 
 .main-navigation-shop{
@@ -425,7 +424,7 @@ a.instagramm::before{
 }
 .main-navigation{
   padding-top: 45px;
-  margin-left:-138px;
+  margin-left:-125px;
   padding-bottom: 35px;
 }
 /*Flex footer end*/
@@ -440,13 +439,25 @@ a.instagramm::before{
 .selection{
   display: flex;
   flex-direction: column;
-  max-width: 300px;
-  margin-left: 140px;
+  max-width:300px;
+  margin-left:30%;
 
 }
 .price{
   display:flex;
   flex-direction: column;
+}
+.for-price{
+  position: absolute;
+  margin-left: 19.3%;
+}
+.for-name{
+  position: absolute;
+  margin-left: 27.9%;
+}
+.type{
+  position: absolute;
+  margin-left: 23.5%
 }
 .radio{
   display: flex;
@@ -460,7 +471,6 @@ a.instagramm::before{
   display: flex;
   flex-direction: column;
   max-width: 800px;
-
   margin-left: 140px;
 }
 .sorting>li{
@@ -479,8 +489,7 @@ a.instagramm::before{
 .up-down{
   display: flex;
   width: 50px;
-  margin-left: 45px;
-
+  margin-left: 56.5%;
 }
 li.down:before{
   content: url(../img/icon-down-dir.svg);
@@ -490,10 +499,7 @@ li.up:before{
   content: url(../img/icon-up-dir.svg);
 
 }
-.type{
-  margin-left: 25px;
-  margin-right: 25px;
-}
+
 
 .sedona-pink{
   display: flex;
@@ -530,6 +536,7 @@ li.up:before{
 .write{
   width: 320px;
   min-height: 310px;
+  z-index: 9999;
 }
 
 .circle-full{
@@ -590,7 +597,7 @@ li.up:before{
   padding-bottom: 17px;
 }
 iframe{
-    width:1440px;
+    width:100%;
     min-height:420px;
     border:0;
     border-width: 0px;
