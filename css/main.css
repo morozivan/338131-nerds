@@ -1,6 +1,5 @@
 
 .wrapper,
-.bloc-map,
 .main-footer{
   margin: auto;
   width: 1440px;
@@ -30,12 +29,17 @@ h2{
   font-size: 24px;
   text-transform: uppercase;
 }
-.adress{
+.tel{
   font-size: 16px;
   line-height: 18px;
+  margin-bottom: 50px
+}
+.peter{
+  margin-bottom: -20px;
 }
 .sale-10{
   line-height: 22px;
+  margin-top: 7px;
 }
 .surrender{
   font-size: 18px;
@@ -53,7 +57,7 @@ h2{
   text-transform: uppercase;
 }
 label{
-    line-height: 20px;
+  line-height: 20px;
 }
 .sorting li{
   font-size: 14px;
@@ -98,7 +102,7 @@ label{
 }
 .gray{
   width:360px;
-  height: 80px;
+  min-height: 80px;
 }
 input.priсe-off{
   width: 80px;
@@ -137,50 +141,62 @@ input.priсe-to{
 .site-navigation{
   display: flex;
   justify-content: center;
+  margin-top: 30px;
 }
 .studio{
   margin-left:165px;
   width: 65px;
-  height: 25px;
+  min-height: 25px;
 }
-.main-header-logo{
+.shop-text{
+  padding-left:13px;
+}
+
+/*.main-header-logo{
   margin-left: 140px;
-}
+}*/
 .clients{
   margin-right:45px;
   margin-left:45px;
   width: 65px;
-  height: 25px;
+  min-height: 25px;
 }
 .contact{
   width: 65px;
-  height: 25px;
+  min-height: 25px;
+  padding-left:45px;
 }
 .shop{
   margin-right:45px;
   width: 65px;
-  height: 25px;
+  min-height: 25px;
 }
 .basket{
   display: flex;
   justify-content: flex-end;
   margin-top: 20px;
-  margin-right: 129px;
-  width: 100px;
-  height: 31px;
-  background:url(../img/cart-icon.png) no-repeat 3% 22%;
-  margin-left:auto;
+  margin-right: 3.2%;
+  width: 119px;
+  min-height: 31px;
+  background: url(../img/cart-icon.png) no-repeat 4% 32%;
+  margin-left: auto;
+  padding-top: 10px;
 }
 /*Flex header end*/
 /*Flex slider begin*/
 .math{
   display: flex;
   flex-direction:column;
-  max-width:380px;
-  margin-left:140px;
+  min-width: 385px;
+
+}
+.main-navigation-centr{
+  width: 1200px;
+  margin: auto;
 }
 .math h1{
   line-height: 50px;
+  margin-bottom: 18px;
 }
 .sliders{
   display: flex;
@@ -200,9 +216,9 @@ input.priсe-to{
 
 .offers{
   display: flex;
-  margin-left:140px;
-  margin-bottom:95px;
-  margin-top:75px;
+  margin-left: 123px;
+  margin-bottom: 126px;
+  margin-top: 86px;
 }
 .web-site,
 .soft,
@@ -221,14 +237,19 @@ input.priсe-to{
 }
 .represent{
   display: flex;
-  margin-left:140px;
+  padding-left:140px;
   border-top: 2px solid #ECECEC;
+  margin-top: -36px;
 }
 
 .represent-begin{
   display: flex;
   flex-direction:column;
   max-width: 660px;
+}
+.represent-text{
+  margin-left: -17px;
+  margin-top: -15px;
 }
 .development{
   display: flex;
@@ -238,54 +259,89 @@ input.priсe-to{
 .represent-begin>h1{
   margin-top: 80px;
   line-height:45px;
+  margin-left: -17px;
 }
 .working{
-  font-size: 18px;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 22px;
+  position: absolute;
+  margin-left: 1px;
 }
 .represent-end{
-  margin-left:75px;
+ margin-left: 10px;
+ min-width: 521px;
 }
-
+.offer{
+  background: url(../img/red-line.png) no-repeat 0 50%;
+  padding-left: 36px;
+  margin-top: 71px;
+}
+.offer+.web{
+  margin-top: 50px;
+}
+.offer+.mobil{
+  margin-top: 25px;
+}
+.offer+.slider{
+  margin-top: 25px;
+}
 .illustration-color{
-  margin-left: 85px;
-  margin-top: 40px;
+  margin-left: 72px;
+  margin-top: 44px;
 }
 .year{
   display: flex;
   margin-top: 35px;
-  margin-right: 50px;
-  margin-left: 25px;
-  margin-bottom: 68px;
+  margin-left:79px;
+  margin-bottom: 51px;
   font-size: 16px;
   line-height: 24px;
   text-transform: uppercase;
-
 }
 .enumeration{
   display: flex;
 }
-.rate{
+.rate {
+  box-sizing: border-box;
   display: flex;
-  font-size: 45px;
-  line-height: 4px;
-  font-weight:bold ;
+  justify-content: space-between;
+  min-width: 521px;
+  margin-left: 8px;
 }
-.rate-146{
-  margin-left:-30px;
+.text-146,
+.text-100,
+.text-50{
+  min-width: 115px;
 }
-.level{
-  margin-left:-26px;
+.text-146{
+  padding-left: 15px;
 }
-.terms{
-  padding-right:17px;
+.text-100{
+  margin-right: 5px;
+  margin-left: 4px;
 }
-.prepayment{
-  padding-right:93px;
+.text-50{
+  margin-right:137px;
 }
-.rate-100{
-  margin-right:32px;
-  margin-left:19px;
+.percent {
+    font-size: 30px;
+    line-height: 10px;
+    font-weight: 700;
+    vertical-align: super;
 }
+.rate-text{
+    font-size: 45px;
+    line-height: 10px;
+    font-weight: 700;
+    padding: 0 0 38px;
+    margin: 0;
+}
+.stats-text{
+  font-size: 16px;
+  line-height: 18px;
+}
+
 .projects{
   display: flex;
   margin-top: 50px;
@@ -298,18 +354,34 @@ input.priсe-to{
 
 }
 
+.html-academy,
+.borodinski,
+.pink,
+.mishka{
+   width: 230px;
+   height: 120px;
+}
 .html-academy{
-  margin-left:50px;
-  margin-right:90px;
+  margin-left: 60px;
+  position: absolute;
+
 }
 .borodinski{
-  margin-right:105px;
+  margin-left:355px;
+  margin-top:-14px;
+  position: absolute;
 }
 .pink{
-  padding-top:0px;
+  padding-top: 3px;
+  position: absolute;
+  margin-left: 665px;
 }
 .mishka{
-  margin-left:140px;
+  margin-left: 971px;
+}
+.logo-mishka{
+  padding-right: 19px;
+  margin-top: -8px;
 }
 .pink-full{
   margin-right:120px;
@@ -330,27 +402,44 @@ input.priсe-to{
 /*Flex footer begin*/
 .main-footer{
   display: flex;
-  height: 220px;
+  min-height: 220px;
   margin-top: 70px;
 }
 .social-logo{
-  margin-left: 50px;
-  margin-right: 140px;
+   margin-left: 122px;
+   margin-right: 120px;
+   margin-top: 13px;
+   min-height: auto;
+   min-width: 320px;
 }
 .vk,
 .facebook,
 .instagramm{
   border:none;
-  height: 20px;
+  min-height: 20px;
   width: 20px;
   background: #DFDFDF;
   border-radius: 30px;
-  text-align:center;
-  padding:28px 27px;
+  text-align: center;
+  padding-top: 32px;
+  padding-right: 29px;
+  padding-left: 28px;
+  padding-bottom: 26px;
   border-radius: 50px;
 }
 .facebook{
-  padding:28px 33px;
+  padding-top: 32px;
+  padding-right: 33px;
+  padding-left: 32px;
+  padding-bottom: 28px;
+  margin-left: 7px;
+}
+.vk{
+  padding-top: 31px;
+  padding-right: 27px;
+  padding-left: 27px;
+  padding-bottom: 28px;
+  margin-left: 0;
 }
 .shop-model{
   margin-left: 380px;
@@ -460,10 +549,23 @@ li.up:before{
 
 /*shop end*/
 .write{
-  width: 320px;
-  height: 310px;
+  min-width: 320px;
+  min-height: 310px;
+  position: absolute;
+  background-color: white;
+  margin-left: 119px;
+  margin-top: 19px;
 }
-
+.nerds-studia{
+  padding-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 44px;
+  margin-bottom: 22px;
+}
+.adress-peter{
+  margin-top:-20px;
+}
 .circle-full{
   display: flex;
   background-color: #E7E7E7;
@@ -471,10 +573,7 @@ li.up:before{
   margin-bottom: 0px;
   border-radius: 3px 3px 0 0;
 }
-.offer{
-  background: url(../img/red-line.png) no-repeat 0 50%;
-  padding-left: 40px
-}
+
 .button,
 .button-more-info,
 .button-send-me,
@@ -485,19 +584,33 @@ li.up:before{
 }
 .button-more-info{
   width: 240px;
-  height: 39px;
+  min-height: 39px;
   text-align: center;
   padding-top: 12px;
+  font-size: 16px;
+  text-transform:uppercase;
+  margin-top: 3px;
 }
 .button{
   text-align: center;
   padding-top: 14px;
   padding-bottom: 17px;
-  padding-left: 47px;
-  padding-right: 47px;
+  padding-left: 36px;
+  padding-right: 45px;
+  text-transform: uppercase;
 }
+
 .assist-button{
-  margin-bottom: 46px;
+  padding-bottom: 10px;
+  margin-bottom: 35px;
+}
+.assist-button.more-info{
+  padding-bottom: 2px;
+}
+.assist-button>p{
+  margin-bottom: 10px;
+  font-style:16px ;
+  text-transform: uppercase;
 }
 .green{
   background-color:#00CB79;
@@ -507,12 +620,13 @@ li.up:before{
 }
 .button-send-me{
   padding-top: 14px;
-  padding-left: 57px;
-  padding-right: 57px;
+  padding-left: 46px;
+  padding-right: 46px;
   padding-bottom: 17px;
+  text-transform: uppercase;
 }
 .adress{
-  margin-bottom: 50px;
+  margin-top: 12px;
 }
 .send-my{
   text-transform: uppercase;
@@ -521,9 +635,31 @@ li.up:before{
   padding-right: 85px;
   padding-bottom: 17px;
 }
-.iframe{
+iframe{
+    min-width:100%;
+    min-height:420px;
+    border:0;
     border-width: 0px;
 }
-li.circle::before {
-  content: &#9675;
+.math>h1{
+  font-size: 55px;
+  margin-top: 71px;
+}
+.text-map{
+  margin-left: 52px;
+  margin-top: 35px;
+}
+.instagramm{
+  margin-left: 15px;
+}
+.call{
+  margin-left: -40px
+}
+.peter,
+.adress,
+.tel{
+  color: #656565;
+}
+.bloc-map{
+  margin-bottom: -30px;
 }
