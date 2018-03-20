@@ -15,33 +15,44 @@
      <a class="main-header-logo" href="#">
         <img src="img/nerds-logo.svg" width="160" height="70" alt="нёрдс"></a>
        <ul class="site-navigation">
-          <li class="studio"><a href="#">Студия</a></li>
-          <li class="clients"><a href="#">Клиенты</a></li>
-           <li class="shop-text"><a href="shop.html">Магазин</a></li>
-           <li class="contact"><a href="#">Контакты</a></li>
-        </ul>
-    <div class="basket">
-     <a href="#">Корзина</a>
+          <li class="studio"><a href="index.html" tabindex="1">Студия</a></li>
+          <li class="clients"><a href="#" tabindex="1">Клиенты</a></li>
+           <li class="shop-text"><a href="shop.html" tabindex="1" >Магазин</a></li>
+           <li class="contact"><a href="#" >Контакты</a></li>
+      </ul>
+    <div class="basket-activ">
+     <a class="basket" href="#">Корзина</a>
     </div>
     </nav>
-    <div class="bottom-header">
-  <section class="math">
-   <h1>Долго, дорого, скрупулезно.</h1>
-      <p class="assist-button more-info">Математически выверенный дизайн <br> для вашего сайта или мобильного приложения.</p>
-     <a class="button-more-info" href="#">узнать больше</a>
-  </section>
-   <ul class="sliders">
-      <li class="slider-item">content</li>
-      <li class="slider-item">content</li>
-      <li class="slider-item">content</li>
-    </ul>
-    <div class="sliders-buttons">
-      <button class="sliders-button"></button>
-      <button class="sliders-button"></button>
-      <button class="sliders-button"></button>
-    </div>
-    </div>
-  </div>
+      <section class="slider">
+      <div class="container">
+        <input class="visually-hidden" type="radio" id="product-1" name="toggle" checked>
+        <input class="visually-hidden" type="radio" id="product-2" name="toggle">
+        <input class="visually-hidden" type="radio" id="product-3" name="toggle">
+        <div class="slider-controls">
+          <label class="slider-controls-item slider-controls-item--1" for="product-1">Первый</label>
+          <label class="slider-controls-item slider-controls-item--2" for="product-2">Второй</label>
+          <label class="slider-controls-item slider-controls-item--3" for="product-3">Третий</label>
+        </div>
+        <ul class="slider-list">
+          <li class="slider-item">
+            <h3>Долго, дорого,<br> скрупулезно.</h3>
+            <p>Математически выверенный дизайн<br> для вашего сайта или мобильного приложения.</p>
+            <a class="slider-item-button slider-button" href="#">Узнать больше</a>
+          </li>
+          <li class="slider-item">
+            <h3>Любим математику как никто другой</h3>
+            <p>Никакого креатива, только математические формулы для расчета идеальных пропорций.</p>
+            <a class="slider-item-button slider-button" href="#">Узнать больше</a>
+          </li>
+          <li class="slider-item">
+            <h3>Только ночь,<br> только хардкор</h3>
+            <p>Работать днем, как все? Мы против этого.<br> Ближе к полуночи работа только начинается.</p>
+            <a class="slider-item-button slider-button" href="#">Узнать больше</a>
+          </li>
+        </ul>
+      </div>
+    </section>
   </header>
 <main class="main-index">
     <section class="offers">
@@ -82,14 +93,14 @@
      height="208" alt="color-logo"></a>
      <div class="represent-end">
     <b class="year">с 2004 года Любим точность во всем:</b>
- <ul class="rate">
+  <ul class="rate">
   <li class="text-146">
     <p class="rate-text">146<span class="percent">%</span></p><span class="stats-text">Уровень самоотдачи</span></li>
   <li class="text-100">
     <p class="rate-text">100<span class="percent">%</span></p><span class="stats-text">Соблюдение сроков</span></li>
   <li class="text-50">
     <p class="rate-text">50<span class="percent">%</span></p><span class="stats-text">Минимальная предоплата</span></li>
-</ul>
+  </ul>
       </div>
     </div>
       </section>
@@ -104,6 +115,7 @@
           alt="logo-mishka"></a></li>
       </ul>
       </div>
+    </div>
     <div class="bloc-map">
       <div class="write">
         <div class="text-map">
@@ -120,11 +132,12 @@
   </div>
   </div>
 </main>
+  <div class="wrapper">
   <footer class="main-footer">
   <div class="social-logo">
-   <a class="vk" href="#"></a>
-   <a class="facebook" href="#"></a>
-   <a class="instagramm" href="#"></a>
+   <a class="vk" href="#"><img src="img/vk-icon.png" alt="vk-icon"></a>
+   <a class="facebook" href="#"><img src="img/fb-icon.png" alt="fb-icon"></a>
+   <a class="instagramm" href="#"><img src="img/insta-icon.png" alt="insta-icon"></a>
   </div>
   <div class="call">
     <b class="friend">Давайте дружить, это выгодно!</b>
